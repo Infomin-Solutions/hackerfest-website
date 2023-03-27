@@ -2647,3 +2647,13 @@ hr {
     font-size: 22px;
   }
 }
+
+.custom-footer{
+  background: linear-gradient(94.18deg, #050618 1.8%, #1B0543 90.5%);
+  height: 317px;
+  right: 0px;
+}
+.custom-footer .footer-content{
+  color: #ffffff;
+  padding: 50px 50px;
+}
