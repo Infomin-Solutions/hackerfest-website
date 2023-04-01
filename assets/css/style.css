@@ -469,7 +469,7 @@ hr {
 }
 .hero-sec .highlight-text {
   font-family: "Outfit";
-  font-size: 200px;
+  font-size: 88px;
   line-height: 260px;
   color: rgba(255, 255, 255, 0.5);
   margin: -240px 0 0 -166px;
@@ -2351,7 +2351,7 @@ hr {
     display: none;
   }
   .hero-sec .highlight-text {
-    font-size: 100px;
+    font-size: 56px;
     margin: -215px 0 0 0px;
   }
   .hero-sec .item-content2 .item-title2 {
@@ -2646,14 +2646,4 @@ hr {
   .blog-newsletter-area .newsletter-title {
     font-size: 22px;
   }
-}
-
-.custom-footer{
-  background: linear-gradient(94.18deg, #050618 1.8%, #1B0543 90.5%);
-  height: 317px;
-  right: 0px;
-}
-.custom-footer .footer-content{
-  color: #ffffff;
-  padding: 50px 50px;
 }
