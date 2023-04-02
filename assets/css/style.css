@@ -92,6 +92,7 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   margin-left: -30px;
+  justify-content: center;
 }
 .social li:not(:last-child) {
   margin-right: 8px;
@@ -453,6 +454,7 @@ hr {
 .hero-sec .item-image .img-2 img {
   width: 100%;
   display: block;
+  margin-top: 20px;
 }
 .hero-sec .item-image .img-2 {
   max-width: 320px;
@@ -472,7 +474,7 @@ hr {
   font-size: 88px;
   line-height: 260px;
   color: rgba(255, 255, 255, 0.5);
-  margin: -240px 0 0 -166px;
+  margin: -110px 0 0 -166px;
   z-index: -1;
   position: relative;
 }
@@ -2296,14 +2298,14 @@ hr {
 /* max width 1440 px*/
 @media screen and (max-width: 1440px) {
   .hero-sec .highlight-text {
-    margin: -240px 0 0 -60px;
+    margin: -170px 0 0 -60px;
   }
 }
 /* max width 1199px */
 @media screen and (max-width: 1199px) {
   .hero-sec .highlight-text {
-    font-size: 140px;
-    margin: -240px 0 0 0px;
+    font-size: 70px;
+    margin: -150px 0 0 0px;
   }
 
   .hero-sec .item-content2 .highlight-text2 {
@@ -2352,7 +2354,7 @@ hr {
   }
   .hero-sec .highlight-text {
     font-size: 56px;
-    margin: -215px 0 0 0px;
+    margin: -150px 0 0 0px;
   }
   .hero-sec .item-content2 .item-title2 {
     font-size: 70px;
@@ -2446,8 +2448,8 @@ hr {
     font-size: 52px;
     line-height: 80px;
   }
-  .hero-sec .item-content2 .highlight-text2 {
-    font-size: 100px;
+  .hero-sec .highlight-text {
+    margin-top: -180px;
   }
 
   .hero-sec .item-image {
@@ -2458,6 +2460,7 @@ hr {
         -ms-flex-align: center;
             align-items: center;
     gap: 3px;
+    margin-top: 100px;
   }
 
   .hero-sec .item-image .img-2 {
@@ -2506,7 +2509,7 @@ hr {
 /* max width 575 px*/
 @media screen and (max-width: 575px) {
   .hero-sec .highlight-text {
-    font-size: 70px;
+    font-size: 40px;
   }
   .hero-sec .item-content2 .item-title2 {
     font-size: 35px;
@@ -2540,6 +2543,12 @@ hr {
   .brand-items img {
     max-width: 50px;
   }
+  .scrn-large{
+    display: none;
+  }
+  .hero-sec .item-image {
+    margin-top: 150px;
+  }
 }
 /* max width 400px*/
 @media screen and (max-width: 420px) {
@@ -2551,8 +2560,8 @@ hr {
     margin-bottom: 40px;
   }
   .hero-sec .highlight-text {
-    font-size: 64px;
-    margin: -90px 0 0 0px;
+    font-size: 30px;
+    margin: -60px 0 0 0px;
   }
   .hero-sec .item-content2 .highlight-text2 {
     font-size: 65px;
@@ -2646,4 +2655,16 @@ hr {
   .blog-newsletter-area .newsletter-title {
     font-size: 22px;
   }
+}
+.custom-footer-title {
+  padding-top: 50px;
+}
+.custom-footer-content {
+  padding: 50px 75px 50px 75px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.custom-footer-copyright{
+  padding: 50px 0px;
+  margin: 0%;
 }
